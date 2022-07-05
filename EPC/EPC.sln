@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPC", "EPC\EPC.csproj", "{D8643877-9B8A-43A2-B2ED-D7E33275CAB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPC.Infrastructure", "EPC.Infrastructure\EPC.Infrastructure.csproj", "{76A54CF4-663E-4A55-93A2-DA280346FA90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EPC.Core", "EPC.Core\EPC.Core.csproj", "{CEF3C79F-9D48-4DA4-BC46-9E78AD61818C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8643877-9B8A-43A2-B2ED-D7E33275CAB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8643877-9B8A-43A2-B2ED-D7E33275CAB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8643877-9B8A-43A2-B2ED-D7E33275CAB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8643877-9B8A-43A2-B2ED-D7E33275CAB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76A54CF4-663E-4A55-93A2-DA280346FA90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A54CF4-663E-4A55-93A2-DA280346FA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A54CF4-663E-4A55-93A2-DA280346FA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A54CF4-663E-4A55-93A2-DA280346FA90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF3C79F-9D48-4DA4-BC46-9E78AD61818C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF3C79F-9D48-4DA4-BC46-9E78AD61818C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF3C79F-9D48-4DA4-BC46-9E78AD61818C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF3C79F-9D48-4DA4-BC46-9E78AD61818C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE630DA6-A260-44CD-8412-E9E687FB3B6E}
+	EndGlobalSection
+EndGlobal
