@@ -5,7 +5,7 @@ using System.Diagnostics;
 
 namespace EPC.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         private readonly ILogger<HomeController> _logger;
 
@@ -16,7 +16,7 @@ namespace EPC.Controllers
 
         public IActionResult Index()
         {
-            ViewData[MessageConstant.SuccessMessage] = "Браво!";
+            ViewData[MessageConstant.SuccessMessage] = "Successfully logged in!";
             return View();
         }
 
