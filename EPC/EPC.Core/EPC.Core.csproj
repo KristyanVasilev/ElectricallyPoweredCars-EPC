@@ -10,8 +10,4 @@
     <ProjectReference Include="..\EPC.Infrastructure\EPC.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
 </Project>
